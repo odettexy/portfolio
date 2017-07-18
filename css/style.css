@@ -2,13 +2,13 @@ body {
   background-color: lightblue;
   }
   
-h1, h3, title{
+h3, title{
     text-align: center;
     color: white;
     font-size: 200%;
     }
     
- h2,p {
+h1, h2,p {
     text-align: left;
     font-family: verdana;
     }
