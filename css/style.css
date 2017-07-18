@@ -3,11 +3,13 @@ body {
   }
   
 h1, h3{
-    text-align: center;
+    text-align: center,
+    color: white;
     }
     
  h2,p {
-    text-align: left
+    text-align: left,
+    font-family: courier;
     }
  h3 {
     color: #8000000;
