@@ -5,11 +5,12 @@ body {
 h1, h3, title{
     text-align: center;
     color: white;
+    font-size: 200%;
     }
     
  h2,p {
     text-align: left;
-    font-family: courier;
+    font-family: verdana;
     }
  h3 {
     color: #8000000;
