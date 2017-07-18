@@ -2,7 +2,7 @@ body {
   background-color: lightblue;
   }
   
-h1, h3{
+h1, h3, title{
     text-align: center;
     color: white;
     }
