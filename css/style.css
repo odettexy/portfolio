@@ -39,11 +39,11 @@ nav {
 }
 a{
     /* position:absolute */
-    font-size:16px;
+    font-size:26px;
 }
 
 a:hover {
-    font-size:20px;
+    font-size:38px;
 }
 
 ul {
