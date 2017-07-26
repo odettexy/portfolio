@@ -1,15 +1,17 @@
-
+  
   <!DOCTYPE html>
 <html>
 <title>Odette Yang</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
 <style>
-    <head>
-
-div.gallery {
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+}
+  div.gallery {
 
     margin: 5px;
     border:  1px solid #ccc;
@@ -42,60 +44,60 @@ body, html {
 .menu {
     display: none;
 }
-  </style> </head>
+</style>
 <body>
-<!-- Links (sit on top) -->
+
+<!-- Navbar (sit on top) -->
 <div class="w3-top">
-  <div class="w3-row w3-padding w3-black">
-    <div class="w3-col s3">
-      <a href="#" class="w3-button w3-block w3-black">HOME</a>
-    </div>
-    <div class="w3-col s3">
-      <a href="#about" class="w3-button w3-block w3-black">ABOUT</a>
-    </div>
-    <div class="w3-col s3">
-      <a href="#menu" class="w3-button w3-block w3-black">GALLERY</a>
-    </div>
-    <div class="w3-col s3">
-      <a href="#where" class="w3-button w3-block w3-black">EXTRAS</a>
+  <div class="w3-bar w3-white w3-padding w3-card-2" style="letter-spacing:4px;">
+    <a href="#home" class="w3-bar-item w3-button">Odette Yang</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">About Me</a>
+      <a href="#menu" class="w3-bar-item w3-button">Gallery</a>
+      <a href="#contact" class="w3-bar-item w3-button">Projects</a>
     </div>
   </div>
 </div>
 
-<!-- Header with image -->
-<header class="bgimg w3-display-container w3-grayscale-min" id="home">
-  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
-    <span class="w3-tag">Welcome to my Website</span>
-  </div>
-  <div class="w3-display-middle w3-center">
-    <span class="w3-text-white" style="font-size:90px">Odette<br>Yang</span>
-  </div>
-  <div class="w3-display-bottomright w3-center w3-padding-large">
-    <span class="w3-text-white"></span>
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+  <img class="w3-image" src="/w3images/hamburger.jpg" alt="Hamburger Catering" width="1600" height="800">
+  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+    <h1 class="w3-xxlarge">Welcome to my Website</h1>
   </div>
 </header>
 
-<!-- Add a background color and large text to the whole page -->
-<div class="w3-sand w3-grayscale w3-large">
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
 
-<!-- About Container -->
-<div class="w3-container" id="about">
-  <div class="w3-content" style="max-width:700px">
-    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT ME</span></h5>
-    <p>Hi! I'm Odette Yang, a senior at Marriotts Ridge High School. I am a student athlete and musician, 
+  <!-- About Section -->
+  <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="/w3images/tablesetting2.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">About Me</h1><br>
+    
+      <p class="w3-large"> Hi! I'm Odette Yang, a senior at Marriotts Ridge High School. I am a student athlete and musician, 
      and I love volunteering for community initiatives! I was born in Montreal, Canada, and my family immigrated to the US when I
    was 3. From an early age, I found a passion for music when my mom signed me up for piano lessons at the local studio. 
      I also LOVE reading and cooking! In my free time, I also love traveling. I go north to snowboard in Vermont 
      in the winter months and to the beach in the summer. When I'm not coding, I'm probaby cooking, reading, playing music, or going on a run. 
-      
+  
       Thanks for visiting my website, I hope you enjoy!.</p>
-
-<!-- Menu Container -->
-<div class="w3-container" id="menu">
-  <div class="w3-content" style="max-width:700px">
- 
-    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">GALLERY</span></h5>
-  <div class="gallery">
+      
+    </div>
+  </div>
+  
+  <hr>
+  
+  <!-- Menu Section -->
+  <div class="w3-row w3-padding-64" id="menu">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">Gallery</h1><br>
+        <div class="gallery">
 
   <a target="_blank" href="MHCR0356.JPG">
 
@@ -110,7 +112,6 @@ body, html {
   <a target="_blank" href="IMG_4551.JPG">
 
     <img src="IMG_4551.JPG" alt="canyon" width="600" height="400">
-
   </a>
 
   <div class="desc">I went on a family vacation to the Grand Canyon.</div>
@@ -218,23 +219,18 @@ body, html {
 
 </div>
 <div class="gallery">
-
   <a target="_blank" href="IMG_4682.JPG">
-
     <img src="IMG_4682.JPG" alt="Prom" width="600" height="400">
-
   </a>
-
   <div class="desc">Prom boutonnieres!</div>
+    </div>
+  </div>
+  <hr>
 
-</div>   
-    </div> </div>
-   
-<!-- Contact/Area Container -->
-<div class="w3-container" id="where" style="padding-bottom:32px;">
-  <div class="w3-content" style="max-width:700px">
-    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">PROJECTS</span></h5>
- <img src="python1.JPG">
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-64" id="contact">
+    <h1>Projects</h1><br>
+     <img src="python1.JPG">
 
     <p style="font-size:160%;">This is the code to an image filter that I made </p>
 
@@ -270,51 +266,21 @@ body, html {
 
     <hr>
  <video id="sampleMovie" width="640" height="360" preload controls>
-
     <source src="ard1.MOV" /> 
-
      <source src="ard2.MOV"/>
-
 </video>
 
     <p style="font-size:160%;">I also made a light circuit on this Arduino1 </p>
-
   </div>
-</div>
-
+  
 <!-- End page content -->
 </div>
 
-<!-- Footer -->
 
-
-<!-- Add Google Maps -->
-
-
-// Tabbed Menu
-function openMenu(evt, menuName) {
-  var i, x, tablinks;
-  x = document.getElementsByClassName("menu");
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablink");
-  for (i = 0; i < x.length; i++) {
-     tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
-  }
-  document.getElementById(menuName).style.display = "block";
-  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
-}
-document.getElementById("myLink").click();
-</script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
-<!--
-To use this code on your website, get a free API key from Google.
-Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
--->
 
 </body>
 </html>
+
 
    
 
